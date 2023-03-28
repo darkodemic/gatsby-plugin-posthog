@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-posthog",
+  "name": "@darko/gatsby-plugin-posthog",
   "version": "1.0.2",
   "description": "Official gatsby plugin to setup posthog",
   "main": "index.js",
