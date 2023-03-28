@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-posthog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official gatsby plugin to setup posthog",
   "main": "index.js",
   "scripts": {
@@ -17,19 +17,19 @@
     "@testing-library/react": "^11.2.2",
     "babel-preset-gatsby-package": "^0.7.0",
     "cross-env": "^7.0.2",
-    "gatsby": "^2.20.29",
-    "react": "^17.0.1"
+    "gatsby": "^4",
+    "react": "^17"
   },
   "peerDependencies": {
-    "gatsby": "^2.0.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "gatsby": "^4",
+    "react": "^17",
+    "react-dom": "^17"
   },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "posthog-analytics"
   ],
-  "author": "macobo",
+  "author": "Darko Demic <mail@darkodemic.com>",
   "license": "MIT"
 }

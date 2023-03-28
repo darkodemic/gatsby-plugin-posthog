@@ -4,6 +4,10 @@
 
 A simple gatsby plugin to add [posthog](https://posthog.com/) analytics to your site. Automatically tracks all the pageviews and clicks.
 
+This is a fork of an official fork, that includes updates to `package.json` to make it compatible with Gatsby 4.
+
+I have not tested it with Gatsby version 5, so I am not going to bump the version number for it.
+
 ## Install
 
 `yarn add gatsby-plugin-posthog`
@@ -28,7 +32,7 @@ module.exports = {
         // Puts tracking script in the head instead of the body (optional, default: true)
         head: true,
         // Enable posthog analytics tracking during development (optional, default: false)
-        isEnabledDevMode: true
+        isEnabledDevMode: true,
         // Pass custom variables to posthog.init() (optional)
         initOptions: {
           // ...
